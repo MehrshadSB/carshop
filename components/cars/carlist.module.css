@@ -1,0 +1,35 @@
+.cards {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.back {
+  margin-left: 300px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+
+}
+
+.back button {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: rgb(86, 137, 196);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.back svg {
+  margin: 8px;
+  fill: white;
+}
+
+.back p {
+  margin-top: 15px;
+}
